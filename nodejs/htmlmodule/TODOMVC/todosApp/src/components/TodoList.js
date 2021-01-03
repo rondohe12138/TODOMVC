@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import Todo from './Todo';
-// TODO: TodoList
+
 const TodoList = ({ todos, toggleTodo }) => ( <
     ul > {
         todos.map(todo =>
