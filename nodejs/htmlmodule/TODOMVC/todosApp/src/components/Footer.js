@@ -1,7 +1,7 @@
 import React from 'react';
 import FilterLink from '../containers/FilterLink';
 import { VisibilityFilters } from '../actions';
-// TODO: Footer
+
 const Footer = () => (
   <div>
     <span>筛选显示: </span>
@@ -16,5 +16,5 @@ const Footer = () => (
     </FilterLink>
   </div>
 );
-// TODO: export
+
 export default Footer;
