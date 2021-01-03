@@ -1,4 +1,3 @@
-// TODO: Reducer - todos
 const todos = (state = [], action) => {
   switch (action.type) {
     case 'ADD_TODO':
@@ -20,5 +19,4 @@ const todos = (state = [], action) => {
       return state
   }
 }
-// TODO: export
 export default todos;
